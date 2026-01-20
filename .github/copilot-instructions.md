@@ -11,7 +11,7 @@
 - Database context and migrations should be in the `Infrastructure/Database` directory.
 - Use `Entity Framework Core` for data access.
 - Use `AutoMapper` for mapping between domain models and DTOs.
-- Database with postgreSQL for development and production.
+- Database with postgreSQL for production.
 - Configuration settings should be managed using `appsettings.json` and environment variables.
 - Use dependency injection to manage service lifetimes and dependencies.
 - Always include Test projects with xUnit for each layer.

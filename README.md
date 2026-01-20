@@ -27,5 +27,10 @@ Chat in Agent mode
 create order project in folder demo01
 ```
 
+Add file `create-order.md to context`
+```
+generate code of create order api
+```
+
 ### 3.2 Specific instruction
 * File in `.github/instructions/NAME.instructions.md`
