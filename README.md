@@ -14,3 +14,13 @@ Run prompt in chat
 ```
 /git-add-commit 
 ```
+
+## 3. Create Instructions
+* Global or default instructions
+* Specific instructions
+
+### 3.1 Global instruction
+* File in `.github/copilot-instructions.md`
+
+### 3.2 Specific instruction
+* File in `.github/instructions/NAME.instructions.md`
