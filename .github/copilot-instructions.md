@@ -8,7 +8,7 @@
 - Use `dotnet new webapi` as the base template for the API project.
 
 ## Coding Standards
-- **Target Framework:** All projects target .NET 8.0.
+- **Target Framework:** All projects target .NET 9.0.
 - **Language:** Use C# for all code.
 - **API Design:** Follow REST architectural principles, using meaningful, resource-oriented URLs and appropriate HTTP verbs (GET, POST, PUT, DELETE).
 - **Error Handling:** Implement structured exception handling and return appropriate HTTP status codes (e.g., 200 OK, 201 Created, 400 Bad Request, 404 Not Found).
