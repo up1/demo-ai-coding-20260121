@@ -29,3 +29,13 @@
 - Class names should be in `PascalCase`.
 - Interface names should start with `I`, e.g., `IRepository`.
 
+
+## Validation rule og OWASP.NET REST API Development Standards
+- Validate all incoming data using data annotations or FluentValidation.
+- Sanitize inputs to prevent SQL injection and cross-site scripting (XSS) attacks.
+- Implement authentication and authorization using ASP.NET Core Identity or JWT tokens.
+- Use HTTPS for all API endpoints.
+- Implement rate limiting to protect against DDoS attacks.
+- Log all significant events and errors using a logging framework like Serilog or NLog.
+- Regularly update dependencies to patch known vulnerabilities.
+
